@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 14, in script
+    'aldo pun melakukan speedrun any% dia dengan cepat memakai seragam biru kebanggaan maba'
+TypeError: %d format: a number is required, not TagQuotingDict
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 14, in script
+    'aldo pun melakukan speedrun any% dia dengan cepat memakai seragam biru kebanggaan maba'
+  File "E:\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "E:\renpy\renpy-8.0.3-sdk\renpy\exports.py", line 1362, in say
+    what = what % tag_quoting_dict
+TypeError: %d format: a number is required, not TagQuotingDict
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+Test 1.0
+Sun Dec  4 02:24:46 2022

@@ -1,41 +1,86 @@
-Sun Dec  4 02:24:25 2022
-Windows-10-10.0.19044
+Wed Jan 18 14:18:44 2023
+Windows-10-10.0.22621
 Ren'Py 8.0.3.22090809
  
 
-Bootstrap to the start of init.init took 0.12s
+Bootstrap to the start of init.init took 0.32s
 Early init took 0.00s
-Loader init took 0.10s
-Loading error handling took 0.06s
-Loading script took 0.53s
-Loading save slot metadata. took 0.36s
+Loader init took 0.14s
+Loading error handling took 0.22s
+Loading script took 1.86s
+Loading save slot metadata. took 0.08s
 Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'E:\\renpy\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.12s
-Loading analysis data took 0.03s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\MyGame\\renpy\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.35s
+Loading analysis data took 0.10s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\HP\\AppData\\Roaming/RenPy/backups\\Test':
+Backing up script files to 'C:\\Users\\ahmad\\AppData\\Roaming/RenPy/backups\\Test':
+Dump and make backups. took 0.33s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.20s
+Build styles took 0.05s
+Load screen analysis took 0.00s
+Analyze screens took 0.11s
+Save screen analysis took 0.09s
+Prepare screens took 0.39s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.12s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.63s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 30.0.101.1660'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 119.09s
+Early init took 0.00s
+Loader init took 0.06s
+Loading error handling took 0.06s
+Loading script took 0.58s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\MyGame\\renpy\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\ahmad\\AppData\\Roaming/RenPy/backups\\Test':
 Dump and make backups. took 0.13s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.07s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.07s
+Init translation took 0.09s
 Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.05s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.04s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.14s
+Interface start took 0.11s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -43,58 +88,44 @@ swap interval: 1 frames
 Windowed mode.
 Vendor: "b'Intel'"
 Renderer: b'Intel(R) UHD Graphics 600'
-Version: b'4.5.0 - Build 23.20.16.4927'
+Version: b'4.6.0 - Build 30.0.101.1660'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 14, in script
-    'aldo pun melakukan speedrun any% dia dengan cepat memakai seragam biru kebanggaan maba'
-  File "E:\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "E:\renpy\renpy-8.0.3-sdk\renpy\exports.py", line 1362, in say
-    what = what % tag_quoting_dict
-TypeError: %d format: a number is required, not TagQuotingDict
-
-While running game code:
-  File "game/script.rpy", line 14, in script
-    'aldo pun melakukan speedrun any% dia dengan cepat memakai seragam biru kebanggaan maba'
-TypeError: %d format: a number is required, not TagQuotingDict
 Resetting cache.
-Bootstrap to the start of init.init took 52.29s
+Bootstrap to the start of init.init took 148.54s
 Early init took 0.00s
-Loader init took 0.04s
+Loader init took 0.06s
 Loading error handling took 0.05s
-Loading script took 0.19s
-Loading save slot metadata. took 0.02s
+Loading script took 0.67s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'E:\\renpy\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.08s
-Loading analysis data took 0.03s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\MyGame\\renpy\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.07s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\HP\\AppData\\Roaming/RenPy/backups\\Test':
-Dump and make backups. took 0.11s
+Backing up script files to 'C:\\Users\\ahmad\\AppData\\Roaming/RenPy/backups\\Test':
+Dump and make backups. took 0.14s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.06s
+Initial gc. took 0.10s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.08s
+Init translation took 0.10s
 Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.04s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.09s
+Interface start took 0.11s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -102,14 +133,7 @@ swap interval: 1 frames
 Windowed mode.
 Vendor: "b'Intel'"
 Renderer: b'Intel(R) UHD Graphics 600'
-Version: b'4.5.0 - Build 23.20.16.4927'
+Version: b'4.6.0 - Build 30.0.101.1660'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s

@@ -159,7 +159,7 @@ define gui.button_tile = False
 define gui.button_text_font = gui.interface_text_font
 
 ## The size of the text used by the button.
-define gui.button_text_size = gui.interface_text_size
+define gui.button_text_size = 35
 
 ## The color of button text in various states.
 define gui.button_text_idle_color = gui.idle_color
@@ -169,7 +169,7 @@ define gui.button_text_insensitive_color = gui.insensitive_color
 
 ## The horizontal alignment of the button text. (0.0 is left, 0.5 is center, 1.0
 ## is right).
-define gui.button_text_xalign = 0.0
+define gui.button_text_xalign = 0.5
 
 
 ## These variables override settings for different kinds of buttons. Please see

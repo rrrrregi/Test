@@ -1,14 +1,19 @@
+init -1 python:
+    pass
+
 define a = Character("Aldo" ,color="#fff")
 define p = Character("Padel")
 
 label start:
-    #PROLOG
-    scene wal
+
+    scene toilet
     with fade
     '\"breeet\" sebuah suara menggema dari toilet'
     'setelah beberapa menit suara kunci terbuka dari dalam, pintu pun mulai terbuka.'
+    show aldo at right
     a 'ahhhh... anjg harusnya ku ga minum cendol bekas tadi malam'
     a 'emang padel bangsat nyimpan cendol ndi bebaik'
+    hide aldo
     'aldo berjalan kembali ke kamarnya, dia mengambil hp-nya di atas meja pc geming Lgbt light nya.'
     'dia menyalakan hp-nya dan menampakkan wallpaper raiden shogun ei nya'
     a 'BUTUH!! udah jam 8, telat jam pak karyo!!!'
@@ -36,3 +41,31 @@ label start:
     '........itu lebih seperti sebuah portal.'
     'sebuah portal muncul dari dalam toilet!!!'
     'aldo tidak sempat bereaksi apa-apa, seketika dia terlahapm oleh cahaya putih dan ditarik ke dalam portal'
+
+label chapter1:
+    '\"wuuussshhhh\" bunyi siraman toilet terdengar, membatu aldo mendapatkan kesadarannya kembali.'
+    a 'anj- kenapa tadi?'
+    'dia terbangun dan mendapati dirinya berada di sebuah toilet'
+    a 'ahh.. kepala ku pening'
+    'aldo memaksakan dirinya berdiri keluar dari toilet, lalu pergi ke wastafel untuk mencuci mukanya'
+    'dia menyalakan keran air dan membasuh mukanya, membuatnya segar kembali'
+    a 'entah kenapa... airnya kerasa agak lain'
+    'setelah selesai aldo pun pergi keluar'
+    'sinar yang menyilaukan membutakan mata aldo sesaat, membuatnya harus melindungi matanya ddengan tangan.'
+    a 'wha-!?'
+    'pemandangan yang asing terbentang di depan mata aldo. beberapa saat laluu dia berada di getung TI lantai 3'
+    'tapi yang terbentang di hadapannya sekarang sangat berbeda. yang harusnya adalah parkiran sekarang hanya sebuah lapangan kosong.'
+    'melihat kebelakang, yang harusnya adalah gedung TI 4 lantai sekarang hanya lah.... toilet'
+    a '.......'
+    'aldo tidak bisa berkata apa-apa dan hanya terdiam di tempat selama 5 menit'
+    'orang baru keluar dari toilet' 'kenapa ni orang?'
+    a 'kayaknya aku terlempar ke universe lain'
+    menu pilih:
+        ""
+        "Choice 1":
+            #block of code to run
+            jump chapter1
+        "Choice 2":
+            #block of code to run
+            jump chapter1
+        

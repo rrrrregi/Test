@@ -290,7 +290,7 @@ screen navigation():
     vbox:
         style_prefix "navigation"
 
-        xpos gui.navigation_xpos
+        xalign 0.5
         yalign 0.5
 
         spacing gui.navigation_spacing
@@ -356,8 +356,8 @@ screen main_menu():
     add gui.main_menu_background
 
     ## This empty frame darkens the main menu.
-    frame:
-        style "main_menu_frame"
+    
+        
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.

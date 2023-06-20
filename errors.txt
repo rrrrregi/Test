@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 1: invalid syntax
-    Character("Aldo" ,{color=red}{/color})
-                             ^
+File "game/screens.rpy", line 295: 'size' is not a keyword argument or valid child for the vbox statement.
+    size 30
+        ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sat Dec  3 23:17:38 2022
+Wed Jan 18 14:06:03 2023

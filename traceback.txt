@@ -1,22 +1,44 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 14, in script
-    'aldo pun melakukan speedrun any% dia dengan cepat memakai seragam biru kebanggaan maba'
-TypeError: %d format: a number is required, not TagQuotingDict
+After initialization, but before game start.
+  File "renpy/common/00start.rpy", line 83, in _init_language
+    renpy.change_language(language)
+  File "game/screens.rpy", line 32, in <module>
+    properties gui.text_properties("button")
+  File "renpy/common/00gui.rpy", line 417, in text_properties
+    if (xalign > 0) and (xalign < 1):
+TypeError: '>' not supported between instances of 'ATLTransform' and 'int'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 14, in script
-    'aldo pun melakukan speedrun any% dia dengan cepat memakai seragam biru kebanggaan maba'
-  File "E:\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "E:\renpy\renpy-8.0.3-sdk\renpy\exports.py", line 1362, in say
-    what = what % tag_quoting_dict
-TypeError: %d format: a number is required, not TagQuotingDict
+  File "D:\MyGame\renpy\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "D:\MyGame\renpy\renpy-8.0.3-sdk\renpy\main.py", line 660, in main
+    run(restart)
+  File "D:\MyGame\renpy\renpy-8.0.3-sdk\renpy\main.py", line 76, in run
+    renpy.translation.init_translation()
+  File "D:\MyGame\renpy\renpy-8.0.3-sdk\renpy\translation\__init__.py", line 583, in init_translation
+    renpy.store._init_language() # type: ignore
+  File "renpy/common/00start.rpy", line 83, in _init_language
+    renpy.change_language(language)
+  File "D:\MyGame\renpy\renpy-8.0.3-sdk\renpy\translation\__init__.py", line 667, in change_language
+    new_change_language(tl, language)
+  File "D:\MyGame\renpy\renpy-8.0.3-sdk\renpy\translation\__init__.py", line 629, in new_change_language
+    i.apply()
+  File "D:\MyGame\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 2907, in apply
+    value = renpy.python.py_eval(expr)
+  File "D:\MyGame\renpy\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\MyGame\renpy\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/screens.rpy", line 32, in <module>
+    properties gui.text_properties("button")
+  File "renpy/common/00gui.rpy", line 417, in text_properties
+    if (xalign > 0) and (xalign < 1):
+TypeError: '>' not supported between instances of 'ATLTransform' and 'int'
 
-Windows-10-10.0.19044 AMD64
+Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
-Test 1.0
-Sun Dec  4 02:24:46 2022
+Aldo Adventure 1.0
+Wed Jan 18 14:18:21 2023
